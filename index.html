@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>misophonia_india</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="brand">
+        <div class="logo">MI</div>
+        <div class="brand-info">
+          <div class="handle">misophonia_india</div>
+          <div class="subtitle">awareness · tips · community</div>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#features">Highlights</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>misophonia_india</h1>
+          <p class="lead">Raising awareness and sharing simple, practical coping tips for misophonia across India.</p>
+          <a class="btn-primary" id="followBtn" href="https://instagram.com/misophonia_india" target="_blank" rel="noopener">Follow on Instagram</a>
+          <div class="tags">
+            <span class="tag">coping tips</span>
+            <span class="tag">short reels</span>
+            <span class="tag">stories</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="phone-mockup">
+            <img id="profileShot" src="miso_insta.jpg" alt="misophonia_india instagram page">s
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <h2>About</h2>
+        <p class="text-muted">Misophonia India is an initiative dedicated to spreading awareness about misophonia, both within India and across the world. This page was created to provide reliable information, share experiences, and build a supportive community for individuals who live with sound sensitivity. By starting conversations and promoting understanding, we hope to reduce stigma and help people realize they are not alone. Our vision is to create a space where awareness leads to acceptance, empathy, and meaningful change.</p>
+      </section>
+
+      <section id="features" class="section features">
+        <div class="card">
+          <h3>Educational Posts</h3>
+          <p class="text-muted">Short posts explaining triggers and practical advice for friends and family.</p>
+        </div>
+        <div class="card">
+          <h3>Short Reels</h3>
+          <p class="text-muted">Bite-sized techniques and breathing exercises to try in the moment.</p>
+        </div>
+        <div class="card">
+          <h3>Community</h3>
+          <p class="text-muted">Anonymous stories and tips from people with lived experience.</p>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <h2>Contact</h2>
+        <p class="text-muted">Email: <a href="misophoniaindia@gmail.com">misophoniaindia@gmail.com</a></p>
+      </section>
+    </main>
+    <footer class="site-footer">
+      © <span id="year"></span> misophonia_india
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
