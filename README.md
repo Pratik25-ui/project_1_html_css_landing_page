@@ -1,2 +1,1 @@
-# OIBSIP
-Oasis infobyte internship projects
+# Personal Portfolio Website
